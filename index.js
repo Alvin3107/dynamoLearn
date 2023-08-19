@@ -16,7 +16,7 @@ app.get("/", (req, res)=>{
 
 app.use('/api', user)
 
-const PORT = 80
+const PORT = 443
 
 app.listen(PORT, () => {
     console.log(`Port listening on ${PORT}`)
